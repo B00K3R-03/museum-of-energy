@@ -95,9 +95,9 @@ Below the `---` lines, replace the sample content with your own writing, analysi
 
 This is an example of editing the title of your essay: 
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
-  <img src="{{ site.baseurl }}/images/edit-title.png" alt="Description of first image">
-  <img src="{{ site.baseurl }}/images/edit-title2.png" alt="Description of second image">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; max-width: 800px;">
+  <img src="{{ site.baseurl }}/images/edit-title.png" alt="Description of first image" style="width: 100%; max-width: 350px; height: auto;">
+  <img src="{{ site.baseurl }}/images/edit-title2.png" alt="Description of second image" style="width: 100%; max-width: 350px; height: auto;">
 </div>
 
 
@@ -156,7 +156,7 @@ The flow chart icon looks like this:
 Here is where you enter your message: 
 
 {% include images/figure.html
-  image-path="iimages/make-edit.png"
+  image-path="images/make-edit.png"
   image-position="right"
   image-width="100%"
   alt-text="Screenshot of the place to enter a message"
