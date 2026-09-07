@@ -46,7 +46,7 @@ permalink: forking
   image-path="images/gettingstarted2.PNG"
   image-position="right"
   image-width="100%"
-  alt-text="Screenshot of forking button on Github
+  alt-text="Screenshot of forking button on Github"
 
 
 %}
@@ -58,7 +58,7 @@ permalink: forking
   image-path="images/gettingstarted4.PNG"
   image-position="right"
   image-width="100%"
-  alt-text="Screenshot of forking button on Github
+  alt-text="Screenshot of forking button on Github"
 
 
 %}
@@ -75,7 +75,7 @@ permalink: forking
   image-path="images/gettingstarted5.PNG"
   image-position="right"
   image-width="100%"
-  alt-text="Screenshot of forking button on Github
+  alt-text="Screenshot of forking button on Github"
 
 
 %}
@@ -86,7 +86,7 @@ permalink: forking
   image-path="images/gettingstarted6.PNG"
   image-position="right"
   image-width="100%"
-  alt-text="Screenshot of forking button on Github
+  alt-text="Screenshot of forking button on Github"
 
 
 %}
@@ -97,7 +97,7 @@ permalink: forking
   image-path="images/gettingstarted7.PNG"
   image-position="right"
   image-width="100%"
-  alt-text="Screenshot of forking button on Github
+  alt-text="Screenshot of forking button on Github"
 
 
 %}
@@ -108,7 +108,7 @@ permalink: forking
   image-path="images/gettingstarted8.PNG"
   image-position="right"
   image-width="100%"
-  alt-text="Screenshot of forking button on Github
+  alt-text="Screenshot of forking button on Github"
 
 
 %}
