@@ -35,7 +35,7 @@ permalink: forking
   image-path="images/gettingstarted3.PNG"
   image-position="right"
   image-width="100%"
-  alt-text="Screenshot of forking button on Github
+  alt-text="Screenshot of forking button on Github"
 
 
 %}
