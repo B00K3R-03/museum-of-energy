@@ -117,4 +117,4 @@ Clicking on this URL will allow you to see your website and the changes you have
 
 **Tip:** Bookmark or favorite this URL along with your forked repository to access it easily in the future! 
 
-## You can now move on to the instructions page to learn how to make your first edits!
+## You can now move on to the [instructions page]({{ site.baseurl }}/instructions) to learn how to make your first edits!
