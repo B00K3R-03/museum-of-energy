@@ -28,172 +28,93 @@ permalink: forking
 
 ### Step 2: Fork the Repository
 
-Your project needs its own folder. Here's how:
+1. You will need to make your own fork in this repository so you can make your own seperate edits without worrying about altering anyone else's. 
+2. Click the fork button in the upper right area of the screen: 
 
-1. In the sidebar of the Code Editor, click on the `essays/` folder
-2. Left-click to open the menu
-3. Right-click `coal/` and select **Copy**
-4. Right-click again on the `essays/` folder and select **Paste**
-5. Rename that folder using **kebab-case** (lowercase with hypens, no spaces)
-   - ✅ Good examples: `great-fermentation-debate`, `pigeon-conspiracy`, `hot-dog-sandwich`
-   - ❌ Bad examples: `Great Fermentation Debate` (spaces), `GreatFermentationDebate` (not uncapitalized, no hyphens)
-6. The new folder name is saved after you click off of it or hit enter
-
-**What your folder structure will look like:**
-```
-essays/
-├── your-essay-title/
-│   ├── images/           (create this next)
-│   └── index.md          (create this next)
-```
-
-
-## Your First Edits
-
-### Update the Front Matter (Top of Your File)
-
-At the very top of `index.md`, you'll see something like:
-
-```yaml
----
-title: Coal
-layout: base
-author: Your Name
-date: 2026-01-01
-header-image: images/coal-breaker.jpg
-header-title: Coal
-header-tier: banner
-header-position: center
-thumbnail: images/coal.jpg
-summary: A collection of raw coal. 
-geo: [47.4865, 102.4974]
-placename: Mongolia
-medium: 
-object-date: 2022
-collection: Wikimedia Commons
-tags:
-  - coal
-  - energy
----
-```
-
-1. Change the `title` to match your actual project. 
-2. Do not change the `layout`.
-3. Change the `author` to to your name. 
-4. Once you have images, you can change `header-image` and `thumbnail`. You do not need to change the other header fields.
-5. For `summary` write a short sentence that will appear in the little card for the file.
-6. For each object file, go to Google Maps and right-click on a location to get its coordinates. Then replace the numbers in `geo`. Keep only four decimal places.
-7. Replace the `placename`.
-8. Add at least two keywords for your `tags`.
-
-
-### Add Your Content
-
-Below the `---` lines, replace the sample content with your own writing, analysis, images, etc. Keep the same structure and formatting.
-
-
-### Add Your Images
-
-1. In the code editor, drag image files from your computer into your `images/` folder
-2. Once uploaded, you can reference them in your `index.md` file by copy-pasting code such as in the following example:
-
-```
-{%raw%}
 {% include images/figure.html
-  class="right"
-  width="40%"
-  caption="What a nice view"
-  alt-text="Color photograph showing some hiking trails in a canyon of the Sandia foothills."
-  image-path="images/coal-1.jpg"
+  image-path="images/gettingstarted3.PNG"
+  image-position="right"
+  image-width="100%"
+  alt-text="Screenshot of forking button on Github
+
+
 %}
-{%endraw%}
-```
 
-**Image path tips:**
-- A common error is when people type out the image path and accidentally make a typo
-- Also, pay extra attention to the file type, since **jpg** is not the same a **jpeg**
+3. You will be taken to a screen that looks like this:
 
-**Image naming tips:**
-- Use **lowercase only** (no capitals)
-- Use **hyphens** between words, not spaces (e.g., `band-photo.jpg` not `band photo.jpg`)
-- Make names **descriptive** (e.g., `stage-setup.jpg` instead of `photo1.jpg`)
+{% include images/figure.html
+  image-path="images/gettingstarted2.PNG"
+  image-position="right"
+  image-width="100%"
+  alt-text="Screenshot of forking button on Github
 
 
-## Editing Your Files
-
-### How to Make Changes
-
-1. Open the code editor in your browser (press `.` key)
-2. Click the file you want to edit in the left sidebar
-3. Type to make changes
-4. Click on the flow chart icon on the left
-5. Enter a brief message
-6. Click the `Commmit & Push` button
-7. You can watch the yellow circle spin in the Actions menu on your repository
-8. If you get a green check, you're good!
-9. If you get a red circle with an X, you must stop and investigate. Visit our [Troubleshooting page](https://amaranth.unm.edu/history-of-energy/docs/reference/troubleshooting.html) to help you figure out what to fix.
+%}
 
 
-### Using Markdown
+4. Select the "Choose an owner" button and select your Github name
 
-You don't need to know HTML! Just use simple **markdown** formatting:
-
-```markdown
-# This is a heading (H1)
-
-## This is a subheading (H2)
-
-**This text is bold**
-
-*This text is italic*
-
-[This is a link](https://example.com)
-
-- Bullet point 1
-- Bullet point 2
-- Bullet point 3
-```
-
-**Tip:** Look at the sample pages in the `essays/` folder to see examples of markdown you can copy!
+{% include images/figure.html
+  image-path="images/gettingstarted4.PNG"
+  image-position="right"
+  image-width="100%"
+  alt-text="Screenshot of forking button on Github
 
 
-## Need Help?
+%}
 
-### Ask Your Instructor
+5. Hit the green "Create fork" button
 
-If something breaks or doesn't work:
-- Email the helpful staff at [Amaranth](mailto:amaranth@unm.edu)
-- Tell them what you were trying to do
-- Share a screenshot if helpful
+6. Congrats you now have your own unique fork off the main branch!
 
+### Step 3: Saving your specific URL 
 
-### Use AI Tools
+1. You will now be able to view your specific forked repository, make sure you are viewing *your* repository instead of Amaranth's:
 
-You can ask AI assistants like Claude or ChatGPT:
-- "How do I add an image to my markdown file?"
-- "How do I add a new section to my essay?"
-- "What's wrong with this code?" (paste your code and the error)
-- "Can you write this text in markdown format?"
+{% include images/figure.html
+  image-path="images/gettingstarted5.PNG"
+  image-position="right"
+  image-width="100%"
+  alt-text="Screenshot of forking button on Github
 
 
-### Check the Xanthan Docs
+%}
 
-For more advanced features:
-- Browse the `/docs/` folder in your repository
-- Visit [xanthan-web.github.io/xanthan/docs/](https://xanthan-web.github.io/xanthan/docs/)
+2. Click on the gear icon on the right: 
 
-
-## When You're Ready to Clean Up
-
-Once you understand how to edit your site and you're happy with your project:
-
-1. **Delete this file** (`instructions.md`)
-   - Right-click it in the code editor and select "Delete"
-2. **Remove it from navigation** (if your instructor set that up)
-3. Keep your project folder and start adding your real content!
+{% include images/figure.html
+  image-path="images/gettingstarted6.PNG"
+  image-position="right"
+  image-width="100%"
+  alt-text="Screenshot of forking button on Github
 
 
----
+%}
 
-{: .text-center .text-muted}
-**Questions?** Ask your instructor or check the [Xanthan documentation](https://xanthan-web.github.io/).
+3. Click the checkmark next to "Use your Github Pages website" and hit the green "Save changes" button:
+
+{% include images/figure.html
+  image-path="images/gettingstarted7.PNG"
+  image-position="right"
+  image-width="100%"
+  alt-text="Screenshot of forking button on Github
+
+
+%}
+
+4. You will now be able to see your unique URL for your forked repository: 
+
+{% include images/figure.html
+  image-path="images/gettingstarted8.PNG"
+  image-position="right"
+  image-width="100%"
+  alt-text="Screenshot of forking button on Github
+
+
+%}
+
+5. Clicking on this URL will allow you to see your website and the changes you have made to your specific repository
+
+**Tip:** Bookmark or favorite this URL along with your forked repository to access it easily in the future! 
+
+## You can now move on to the instructions page to learn how to make your first edits!
