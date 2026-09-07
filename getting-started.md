@@ -1,5 +1,5 @@
 ---
-title: Initial Steps for Creating Your Project
+title: Initial Steps
 layout: base
 permalink: forking
 ---
