@@ -93,6 +93,13 @@ tags:
 
 Below the `---` lines, replace the sample content with your own writing, analysis, images, etc. Keep the same structure and formatting.
 
+This is an example of editing the title of your essay: 
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+  <img src="{{ site.baseurl }}/images/edit-title.png" alt="Description of first image">
+  <img src="{{ site.baseurl }}/images/edit-title2.png" alt="Description of second image">
+</div>
+
 
 ### Add Your Images
 
@@ -134,6 +141,28 @@ Below the `---` lines, replace the sample content with your own writing, analysi
 7. You can watch the yellow circle spin in the Actions menu on your repository
 8. If you get a green check, you're good!
 9. If you get a red circle with an X, you must stop and investigate. Visit our [Troubleshooting page](https://amaranth.unm.edu/history-of-energy/docs/reference/troubleshooting.html) to help you figure out what to fix.
+
+The flow chart icon looks like this: 
+
+{% include images/figure.html
+  image-path="images/flowchart.png"
+  image-position="right"
+  image-width="100%"
+  alt-text="Screenshot of the flow chart icon"
+
+
+%}
+
+Here is where you enter your message: 
+
+{% include images/figure.html
+  image-path="iimages/make-edit.png"
+  image-position="right"
+  image-width="100%"
+  alt-text="Screenshot of the place to enter a message"
+
+
+%}
 
 
 ### Using Markdown
