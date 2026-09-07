@@ -40,7 +40,7 @@ permalink: forking
 
 %}
 
-3. You will be taken to a screen that looks like this:
+You will be taken to a screen that looks like this:
 
 {% include images/figure.html
   image-path="images/gettingstarted2.PNG"
@@ -52,7 +52,7 @@ permalink: forking
 %}
 
 
-4. Select the "Choose an owner" button and select your Github name
+Select the "Choose an owner" button and select your Github name
 
 {% include images/figure.html
   image-path="images/gettingstarted4.PNG"
@@ -63,13 +63,13 @@ permalink: forking
 
 %}
 
-5. Hit the green "Create fork" button
+Hit the green "Create fork" button
 
-6. Congrats you now have your own unique fork off the main branch!
+Congrats you now have your own unique fork off the main branch!
 
 ### Step 3: Saving your specific URL 
 
-1. You will now be able to view your specific forked repository, make sure you are viewing *your* repository instead of Amaranth's:
+You will now be able to view your specific forked repository, make sure you are viewing *your* repository instead of Amaranth's:
 
 {% include images/figure.html
   image-path="images/gettingstarted5.PNG"
@@ -80,7 +80,7 @@ permalink: forking
 
 %}
 
-2. Click on the gear icon on the right: 
+ Click on the gear icon on the right: 
 
 {% include images/figure.html
   image-path="images/gettingstarted6.PNG"
@@ -91,7 +91,7 @@ permalink: forking
 
 %}
 
-3. Click the checkmark next to "Use your Github Pages website" and hit the green "Save changes" button:
+Click the checkmark next to "Use your Github Pages website" and hit the green "Save changes" button:
 
 {% include images/figure.html
   image-path="images/gettingstarted7.PNG"
@@ -102,7 +102,7 @@ permalink: forking
 
 %}
 
-4. You will now be able to see your unique URL for your forked repository: 
+You will now be able to see your unique URL for your forked repository: 
 
 {% include images/figure.html
   image-path="images/gettingstarted8.PNG"
@@ -113,7 +113,7 @@ permalink: forking
 
 %}
 
-5. Clicking on this URL will allow you to see your website and the changes you have made to your specific repository
+Clicking on this URL will allow you to see your website and the changes you have made to your specific repository
 
 **Tip:** Bookmark or favorite this URL along with your forked repository to access it easily in the future! 
 
