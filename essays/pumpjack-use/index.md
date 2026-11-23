@@ -1,3 +1,24 @@
+---
+title: Nuclear Energy
+layout: base
+author: Your Name
+date: 2026-01-01
+header-image: images/rancho-seco.jpg
+header-title: Nuclear Energy
+header-tier: banner
+header-position: center 38%
+thumbnail: images/first-four-bulbs.jpeg
+summary: The first four light bulbs powered by nuclear energy in 1951.
+geo: [43.5197, -112.0469]
+placename: Argonne National Laboratory in Idaho
+medium: 
+object-date: 1951
+collection: 
+tags:
+  - nuclear
+  - civilian
+---
+
 Pumpjacks: The Machines Behind Oil Production
 Introduction
 When people think about oil production, they usually picture massive drilling rigs, offshore platforms, or large industrial facilities. However, one of the most recognizable pieces of equipment in the petroleum industry is the pumpjack. These machines can be seen moving up and down across oilfields, sometimes operating for years. Although they might seem simple compared to modern drilling technology, pumpjacks have played an important role in keeping oil production going. Their history also shows how the demand for energy has encouraged technological innovation and changed the relationship between industry, natural resources, and society.
